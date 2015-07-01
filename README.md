@@ -4,7 +4,7 @@ Thanks for taking the time to complete our code test. This exercise is broken up
 
 ### Instructions
 
-Please clone this repo. It has been branched so that only you can affect it. Please contact us once you have pushed up your final changes.
+Please clone this repo. You have private access to this branch, you may use it as a sandbox. Please contact us once you have pushed up your final changes.
 
 ### Contacts
 
