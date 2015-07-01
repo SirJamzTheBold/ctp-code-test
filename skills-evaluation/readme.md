@@ -22,7 +22,22 @@ class myClass
 
 ```
 
-2.)  Given the following code, what is the value of ``` $a ``` and ``` $b ``` after the function and why?
+2.) What will the following lines output to the console and why?
+
+```
+console.log(1 + 2 + 3);
+console.log(+"1" +  "2" + "3");
+console.log( "A" - "B" + "2");
+console.log( "A" - "B" + 2);
+```
+
+3.) Why shouldn't we use the following SQL query?
+
+```
+"SELECT * FROM table WHERE id = $_POST[ 'id' ]"
+```
+
+4.) Given the following code, what is the value of ``` $a ``` and ``` $b ``` after the function and why?
 
 ```
 
@@ -38,15 +53,18 @@ $b = myFunction( $a );
 
 ```
 
-3.) Why shouldn't we use the following SQL query?
+5.) The following code would cause a stack overflow if the array is to big. What small change could you make that would prevent the stack overflow while keeping it recursive?
 
 ```
-"SELECT * FROM table WHERE id = $_POST[ 'id' ]"
+var list = someBigList();
+
+var nextListItem = function() {
+    var item = list.pop();
+
+    if (item) {
+        // process the list item...
+        nextListItem();
+    }
+};
+
 ```
-
-4.)
-
-
-
-
-5.)
