@@ -1,4 +1,6 @@
-# Instructions
+#Counting (JS Test)
+
+##Instructions
 
 Given the following array:
 
