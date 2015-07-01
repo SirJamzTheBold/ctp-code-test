@@ -26,7 +26,7 @@ class myClass
 
 ```
 console.log(1 + 2 + 3);
-console.log(+"1" +  "2" + "3");
+console.log("1" +  "2" + "3");
 console.log( "A" - "B" + "2");
 console.log( "A" - "B" + 2);
 ```
@@ -40,7 +40,6 @@ console.log( "A" - "B" + 2);
 4.) Given the following code, what is the value of ``` $a ``` and ``` $b ``` after the function and why?
 
 ```
-
 function myFunction( &$arg )
 {
     $return = $arg;
