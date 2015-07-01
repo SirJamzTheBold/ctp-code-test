@@ -19,7 +19,6 @@ class myClass
         return $this->_someMember * 5;
     }
 }
-
 ```
 
 2.) What will the following lines output to the console and why?
@@ -49,7 +48,6 @@ function myFunction( &$arg )
 
 $a = 4;
 $b = myFunction( $a );
-
 ```
 
 5.) The following code would cause a stack overflow if the array is to big. What small change could you make that would prevent the stack overflow while keeping it recursive?
@@ -65,5 +63,4 @@ var nextListItem = function() {
         nextListItem();
     }
 };
-
 ```
